@@ -19,7 +19,7 @@ export default function RootLayout({
         <div
           dangerouslySetInnerHTML={{
             __html:
-              '<ruttl-poetry id="rjHOSjF4WRFK1aAIhU51"></ruttl-poetry>' +
+              '<ruttl-poetry id="WIFudKsbP3qLZ2UFXhdo"></ruttl-poetry>' +
               '<script src="https://web.ruttl.com/poetry.js"><\/script>',
           }}
         />
