@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,13 +15,14 @@ export default function RootLayout({
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col">
         {children}
-        {/* Ruttl bug tracking widget — element must be in server-rendered HTML */}
+        {/* Ruttl bug tracking widget — both tags must be in the raw HTML for verification */}
         <div
           dangerouslySetInnerHTML={{
-            __html: '<ruttl-poetry id="rjHOSjF4WRFK1aAIhU51"></ruttl-poetry>',
+            __html:
+              '<ruttl-poetry id="rjHOSjF4WRFK1aAIhU51"></ruttl-poetry>' +
+              '<script src="https://web.ruttl.com/poetry.js"><\/script>',
           }}
         />
-        <Script src="https://web.ruttl.com/poetry.js" strategy="afterInteractive" />
       </body>
     </html>
   );
