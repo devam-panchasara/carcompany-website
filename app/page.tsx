@@ -100,14 +100,13 @@ function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-500 max-w-2xl mx-auto mb-12 leading-relaxed">
-          Premium electric vehicles built for those who demand more — more
-          performance, more range, more intelligence.
+          Premium electric vehicles built for those who demand more performance, more range, more intelligence.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#fleet"
-            className="bg-black text-white font-semibold px-8 py-4 rounded-full text-base hover:bg-gray-900 transition-all hover:scale-105"
+            className="bg-red-600 text-white font-semibold px-8 py-4 rounded-full text-base hover:bg-red-700 transition-all hover:scale-105"
           >
             Explore Fleet
           </a>
