@@ -160,7 +160,7 @@ const FLEET = [
     power: "780 hp",
     accel: "3.1s",
     price: "$89,900",
-    color: "bg-red-600",
+    color: "bg-gray-500",
     features: ["7-Seat Config", "Air Suspension", "Panoramic Roof", "HEPA Filter"],
     emoji: "🚙",
     featured: true,
@@ -281,7 +281,7 @@ const TECH_FEATURES = [
     icon: "🧠",
   },
   {
-    title: "VelocityCharge",
+    title: "Velocity Charge",
     desc: "250 kW DC fast charging adds 200 miles in 15 minutes. Over 15,000 Supercharger-compatible stations across North America.",
     icon: "⚡",
   },
