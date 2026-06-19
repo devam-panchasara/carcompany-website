@@ -11,7 +11,7 @@ function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         <a href="#" className="flex items-center gap-2">
-          <span className="text-2xl font-black tracking-tight text-black">Velocity<span className="text-red-600">Auto</span></span>
+          <span className="text-2xl font-black tracking-tight text-black">Velocity <span className="text-red-600">Auto</span></span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
